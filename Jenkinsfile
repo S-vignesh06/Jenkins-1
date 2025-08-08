@@ -8,7 +8,7 @@ pipeline{
         }
         stage('hello'){
             steps{
-                bat ' "C:\Users\dell\AppData\Local\Programs\Python\Python313\python.ex" /c python demoxy.py'
+                bat ' "c:\Users\dell\AppData\Local\Programs\Python\Python313\python.ex" /c python demoxy.py'
             }
         }
     }
