@@ -3,12 +3,12 @@ pipeline{
     stages{
         stage('version'){
             steps{
-                bat '"c:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python313\\python.ex" /c python --version'
+                bat ' "C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python313\\python.ex" /C python --version'
             }
         }
         stage('hello'){
             steps{
-                bat '"c:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python313\\python.ex" /c python demoxy.py'
+                bat ' "C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python313\\python.ex" /C python demoxy.py'
 
             }
         }
